@@ -783,6 +783,11 @@
     </style>
 </head>
 <body class="antialiased">
+<nav class="flex bg-slate-700 text-white">
+    <a href="/counter" class="px-6 py-4 hover:bg-slate-800 {{request()->routeIs('counter') ? 'bg-slate-800' : ''}}">Counter</a>
+    <a href="/calculator"
+       class="px-6 py-4 hover:bg-slate-800 {{request()->routeIs('calculator') ? 'bg-slate-800' : ''}}">Calculator</a>
+</nav>
 {{$slot}}
 @livewireScripts
 </body>
