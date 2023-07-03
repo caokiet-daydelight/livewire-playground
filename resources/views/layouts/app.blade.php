@@ -11,6 +11,7 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet"/>
 
     <!-- Styles -->
+    @livewireStyles
     <style>
         /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
         *, ::after, ::before {
@@ -782,5 +783,6 @@
 </head>
 <body class="antialiased">
 {{$slot}}
+@livewireScripts
 </body>
 </html>
