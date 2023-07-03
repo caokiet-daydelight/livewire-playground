@@ -787,6 +787,8 @@
     <a href="/counter" class="px-6 py-4 hover:bg-slate-800 {{request()->routeIs('counter') ? 'bg-slate-800' : ''}}">Counter</a>
     <a href="/calculator"
        class="px-6 py-4 hover:bg-slate-800 {{request()->routeIs('calculator') ? 'bg-slate-800' : ''}}">Calculator</a>
+    <a href="/todo-list" class="px-6 py-4 hover:bg-slate-800 {{request()->routeIs('todo-list') ? 'bg-slate-800' : ''}}">Todo
+        List</a>
 </nav>
 {{$slot}}
 @livewireScripts
