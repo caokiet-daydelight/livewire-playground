@@ -19,3 +19,4 @@ Route::get('/counter', function () {
 
 Route::get('/calculator', \App\Http\Livewire\Calculator::class)->name('calculator');
 Route::get('/todo-list', \App\Http\Livewire\TodoList::class)->name('todo-list');
+Route::get('/cascading-dropdown', \App\Http\Livewire\CascadingDropdown::class)->name('cascading-dropdown');

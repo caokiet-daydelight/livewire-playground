@@ -789,6 +789,9 @@
        class="px-6 py-4 hover:bg-slate-800 {{request()->routeIs('calculator') ? 'bg-slate-800' : ''}}">Calculator</a>
     <a href="/todo-list" class="px-6 py-4 hover:bg-slate-800 {{request()->routeIs('todo-list') ? 'bg-slate-800' : ''}}">Todo
         List</a>
+    <a href="/cascading-dropdown"
+       class="px-6 py-4 hover:bg-slate-800 {{request()->routeIs('cascading-dropdown') ? 'bg-slate-800' : ''}}">Cascading
+        Dropdown</a>
 </nav>
 {{$slot}}
 @livewireScripts
